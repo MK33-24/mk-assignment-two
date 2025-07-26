@@ -428,5 +428,190 @@ button{
   cursor: pointer;
 }
 
+/* responsive for iphone 14 and 15 pro */
+@media screen and (max-width: 430px) {
+    .nav-item{
+        display: none;
+    }
+    .nav-btn{
+        margin-top: 26px
+    }
+ 
+  .flower-banner {
+    flex-direction: column-reverse;
+    padding: 40px 0; 
+  }
+
+  .flower-image {
+    width: 100%;          
+    padding: 0;           
+    margin: 0;             
+  }
+
+  .flower-image img {
+    width: 100%;
+    height: auto;
+    display: block;        
+  }
+
+  .flower-text {
+    padding: 0 20px;      
+    margin-top: 35px;
+    text-align: left;
+  }
+
+  .flower-text h1 {
+    font-size: 24px;
+    font: 700;
+  }
+
+  .flower-description {
+    font-size: 14px;
+    width: 360px;
+    height: 68px;
+  }
+ 
+    .section-header h2 {
+    font-size: 24px;
+  }
+
+  .section-header p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .product-card {
+    padding: 16px 8px;
+  }
+
+  .cart-button {
+    padding: 10px 0;
+    font-size:13px;
+}
+.trusted-badge{
+    display: none;
+}
+
+  .deals-container {
+    flex-direction: column;
+  }
+  .deals-section{
+    margin-left: 5px;
+  }
+
+.deal-box  {
+  filter: brightness(90%);
+}
+
+  .deal-box.large {
+    height:172px;
+    width: 361px;
+}
+.deal-title-large{
+      font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.deal-btn-large{
+     font-size: 20px;
+    font: 600;
+}
+.deals-header h2 {
+  font-size: 24px;
+  font: 700;
+  margin-bottom: 5px;
+}
+.deals-header p {
+  font-size: 14px;
+  width: 336px;
+  height: 68px;
+
+
+}
+
+  .newsletter-section {
+    padding-left: 0px;
+    height: 275px;
+    width: 393px;
+  }
+
+  .newsletter-content {
+    max-width: 100%;
+  }
+
+  .newsletter-content h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .newsletter-form input[type="email"] {
+    width: 66%;
+    font-size: 14px;
+    padding: 12px 10px;
+    border: none;
+    outline: none;
+  }
+
+  .newsletter-form button {
+    width: 34%;
+    font-size: 14px;
+    padding: 12px 0;
+    background-color: rgba(233, 90, 8, 1);
+    border: none;
+    color: white;
+  }
+
+
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .footer-left,
+  .footer-links,
+  .footer-features,
+  .footer-social {
+    width: 100%;
+  }
+
+  .footer-links ul,
+  .footer-features ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px 24px;
+  }
+
+  .footer-links li,
+  .footer-features li {
+    width: 45%;
+  }
+
+  .footer-social {
+    justify-content: flex-start;
+    gap: 16px;
+    margin-top: 10px;
+  }
+}
+
+
 
 
