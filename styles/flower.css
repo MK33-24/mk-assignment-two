@@ -31,8 +31,8 @@
 .navbar{
     justify-content: space-between;
     align-items: center;
-
-    
+    max-width: 1140px;
+      margin: 0 auto;    
 }
 .nav-item{
 list-style: none;
@@ -45,10 +45,7 @@ margin-right: 48px;
     margin-top: 20px;
     font-size: 20px;
 }
-.navbar{
-    max-width: 1140px;
-      margin: 0 auto; 
-}
+
 button{
     border: none;
     font-size:20px;
@@ -372,6 +369,63 @@ button{
 
 .newsletter-form button:hover {
   background-color: rgba(233, 90, 8, 1);
+}
+/* footer styles */
+
+.footer {
+  max-width: 1120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.footer-left {
+  max-width: 359px;
+  height: 173px;
+}
+
+.footer-logo {
+  width: 130px;
+  margin-bottom: 2px;
+
+}
+
+.footer-left p {
+  color: #6B7280;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-links ul,
+.footer-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li,
+.footer-features li {
+  color: #6B7280;
+  margin-bottom: 32px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.footer-social img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  cursor: pointer;
 }
 
 
